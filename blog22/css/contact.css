@@ -1,0 +1,166 @@
+/*designed by Amoogli.com
+
+we always update every three months...
+
+we free and just pay less to us--*/
+
+
+.banner-title {
+    background: url(../images/webcurl.png) repeat-x #d6b12a;
+    color: #fff;
+    clear: both;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
+.title {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-img {
+  border-radius: 10px;
+  margin-top: 40px;
+  clear: both;
+}
+.box {
+    border-radius: 3px;
+    background-color: #D2D7D3;
+    padding: 10px;
+}
+.box-contact{
+    border-radius: 3px;
+    background-color: #D2D7D3;
+    padding: 10px;
+    margin-top: 58px;
+}
+
+
+
+
+
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: #0B8389;
+	margin-top: 10px;
+	color: white;
+}
+.address {
+	margin-top: 20px;
+}
+.para {
+	font-size: 16px;
+	line-height: 30px;
+}
+.facebook {
+	background-color: #2C82C9;
+	color: white;
+	border-radius: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+.twitter {
+	background-color: #3D8EB9;
+	color: white;
+	border-radius: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+.google {
+	background-color: #CF000F;
+	color: #fff;
+	border-radius: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+.linkedin {
+	background-color: #2C82C9;
+	color: white;
+	border-radius: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+.facebook:hover {
+	background-color: blue;
+	-webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    opacity: 0.80;
+}
+.twitter:hover {
+	background-color: #897FBA;
+	-webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    opacity: 0.80;
+}
+.linkedin:hover {
+	background-color: blue;
+	-webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    opacity: 0.80;
+}
+.google:hover {
+	background-color: #D6523C;
+	-webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    opacity: 0.80;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+.book-btn {
+    border-radius: 34px;
+    margin-top: 7px;
+    background: rgba(17, 161, 34, 0.43);
+    font-weight: bold;
+    border: solid thin rgba(0, 128, 0, 0.02);
+}
+
+.feedback {
+    color: green;
+}
+
+/*modal popup*/
+.modal .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal .modal-header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.modal .modal-footer {
+  border-top: none;
+  padding: 0;
+}
+.modal .modal-footer .btn-group > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.modal .modal-footer .btn-group > .btn:last-child {
+  border-top-right-radius: 0;
+}
+.modal-title {
+    background-color: #e3e384;
+    padding:30px;
+    text-align: center;
+}
