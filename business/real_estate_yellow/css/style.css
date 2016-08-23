@@ -1,0 +1,171 @@
+body {
+	color: #292929;
+	font: 13px/17px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-family: Helvetica,Arial,sans-serif;
+	background-color: #f4f4f4;
+}
+
+.h1 .h2 .h3 .h4 .h5  strong p {
+
+}
+
+.header {
+	max-height: 150px;
+	background-color: #ffdd00;
+}
+ul li {
+	list-style: none;
+}
+.container {
+	max-width: 900px;
+}
+
+.thumbnail {
+	border: 1px solid #e5e5e5;
+	margin: -6px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	background: #fff;
+}
+
+.padding {
+	padding: 0px;
+}
+.pricing {
+	height: 20px;
+	width: 100%;
+}
+.title {
+	color: #005cff;
+	cursor: pointer;
+}
+.name {
+	color: gray;
+}
+
+/*single*/
+.name-product {
+	font-size: 18px;
+	font-weight: 300;
+
+}
+.p {
+	font-weight: 500;
+	font-size: 13px;
+}
+
+/*frm*/
+.container-login h2 {
+    color: #ea533f;
+}
+.frm {
+	background-color: yellow;
+}
+.form-control {
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #999999;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.container-login .checkbox {
+    margin-top: -15px;
+}
+.container-login button {
+    background-color: #ea533f;
+    border-color: #e73e28;
+    color: #ffffff;
+    border-radius: 0;
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 10px 16px;
+    width: 100%;
+}
+.container-login button:hover,
+.container-login button:focus {
+    background: #de2f18;
+    border-color: #be2815;
+}
+.container-login .nav-tabs.nav-justified > li > a,
+.container-login .nav-tabs.nav-justified > li > a:hover,
+.container-login .nav-tabs.nav-justified > li > a:focus {
+    background: #ea533f;
+    border: medium none;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-radius: 0;
+}
+.container-login .nav-tabs.nav-justified > .active > a,
+.container-login .nav-tabs.nav-justified > .active > a:hover,
+.container-login .nav-tabs.nav-justified > .active > a:focus {
+    background: #ffffff;
+    color: #333333;
+}
+.container-login .nav-tabs.nav-justified > li > a:hover,
+.container-login .nav-tabs.nav-justified > li > a:focus {
+    background: #de2f18;
+}
+.tabs-login {
+    background: #ffffff;
+    border: medium none;
+    margin-top: -1px;
+    padding: 10px 30px;
+}
+
+/*end frm*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end single*/
+
+/*footer*/
+footer {
+	height: 300px;
+	width: 100%;
+	background-color: #ffdd00;
+}
+.logo-footer {
+	margin-top: 30px;
+}
+.foot-ul {
+	list-style: none;
+	margin-top: 10px;
+}
+.foot-ul .list-foot {
+	float: left;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: #fff;
+}
+.foot-ul .list-foot a :hover {
+	color: white;
+}
+a :hover {
+	text-decoration: none;
+}
+
+/*about*/
+.about {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    background-color: white;
+    padding: 10px;
+}

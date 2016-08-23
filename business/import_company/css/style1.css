@@ -1,0 +1,73 @@
+body {
+	background-color: #E7E7E7;
+	font: normal normal normal 12px/16px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 250px;
+    padding-top: 50px;
+}
+
+.title1 {
+	padding-top: 45px;
+}
+.myimg_post {
+	background: #fcfcfc;
+	border-bottom: 1px solid #e8e8e8;
+	border-radius: 3px 3px 0 0;
+	border-top: 1px solid #fff;
+	padding: 0px;
+}
+.desc {
+	color: #00afd8;
+	font-size: 36px;
+}
+.about {
+	background: #f8f8f8;
+	border: 1px solid rgba(0,0,0,0.09);
+	box-shadow: 0 1px 0 0 rgba(0,0,0,0.13);
+	padding: 63px 0 90px;
+}
+.describe {
+	font-weight: 500px;
+	font-size: 18px;
+	color: #60646D;
+}
+.padding-top {
+	margin-top: 30px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.thumbnail .caption {
+	padding: 0px;
+
+}
+.work {
+	text-align: center;
+}
+.thumbnail {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.thumbnail {
+    display: block;
+    padding: -2px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-transition: border .5s ease-in-out;
+    -o-transition: border .5s ease-in-out;
+    transition: border .5s ease-in-out;
+    margin: 4px;
+}
+.thumbnail img:hover {
+	transition: opacity 0.17s linear;
+	transform: translate(0,0);
+	opacity: 0.97
+}
