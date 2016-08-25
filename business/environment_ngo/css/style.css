@@ -1,0 +1,189 @@
+body {
+	color: #292929;
+	font: 13px/17px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-family: Helvetica,Arial,sans-serif;
+	background-color: #f4f4f4;
+}
+
+.h1 .h2 .h3 .h4 .h5  strong p {
+
+}
+
+.header {
+	max-height: 150px;
+	background-color: #ffdd00;
+}
+ul li {
+	list-style: none;
+}
+.sp-arrow {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 30px;
+    cursor: pointer;
+    background: black;
+}
+a {
+    color: #f8f8f8;
+}
+.container {
+	max-width: 1000px;
+}
+.thumbnail {
+    display: block;
+    padding: 0px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    margin: 4px;
+}
+
+
+
+.padding {
+	padding: 0px;
+}
+.pricing {
+	height: 20px;
+	width: 100%;
+}
+
+.title {
+	color: #646568;
+	cursor: pointer;
+    border-left: solid 3px #9f9fff;
+}
+.describe-single {
+    color: #646568;
+    font-size: 17px;
+    font-weight: 200;
+    color: black;
+
+}
+.title:hover {
+    color: #3D8EB9;
+    -o-transition: color 0.5s linear;
+    -moz-transition: color 0.5s linear;
+    -khtml-transition: color 0.5s linear;
+    -webkit-transition: color 0.5s linear;
+    -ms-transition: color 0.5s linear;
+    transition: color 0.5s linear;
+}
+.thumbnail:hover {
+    opacity: 0.90;
+    -o-transition: color 0.5s linear;
+    -moz-transition: color 0.5s linear;
+    -khtml-transition: color 0.5s linear;
+    -webkit-transition: color 0.5s linear;
+    -ms-transition: color 0.5s linear;
+    transition: color 0.5s linear;
+}
+.name {
+	color: gray;
+}
+.vision {
+    background-color: #44BBFF;
+    border: solid rgba(224, 224, 224, 0.5);
+    border-radius: 2px;
+    color: #fff;
+}
+.title-vis {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 22px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+.vision-desc {
+    font-weight: 500;
+    font-size: 16px;
+}
+.vision-post {
+    border-bottom: solid thin gray;
+    margin-top: 10px;
+}
+.vision-post a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+/*single*/
+.name-product {
+	font-size: 18px;
+	font-weight: 300;
+
+}
+.p {
+	font-weight: 500;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end single*/
+
+/*footer*/
+footer {
+    margin-top: 20px;
+	height: 300px;
+	width: 100%;
+	background-color: black;
+    clear: both;
+}
+.logo-footer {
+	margin-top: 30px;
+}
+.foot-ul {
+	list-style: none;
+	margin-top: 10px;
+}
+.foot-ul .list-foot {
+	float: left;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: #fff;
+}
+.foot-ul .list-foot a :hover {
+	color: white;
+}
+a :hover {
+	text-decoration: none;
+}
+
+/*about*/
+.about {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    background-color: white;
+    padding: 10px;
+}
+
+/*form contact*/
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+    padding: 10px 40px 60px;
+    margin: 10px 0px 60px;
+}

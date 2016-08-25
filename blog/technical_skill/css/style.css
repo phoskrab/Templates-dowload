@@ -4,6 +4,9 @@ body {
   font-size: 20px;
   color: #333333;
 }
+footer {
+  background-color: black;
+}
 .add{
   border: thin solid rgb(237, 237, 237) !important;
   border-radius: 3px;

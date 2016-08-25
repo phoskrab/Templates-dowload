@@ -1,0 +1,154 @@
+body {
+	color: #292929;
+	/*font: 13px/17px 'Helvetica Neue',Helvetica,Arial,sans-serif;*/
+    font-family: TeXGyreAdventorBold, Arial, sans-serif;
+	background-color: #f4f4f4;
+}
+
+.describe {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 10px;
+    color: rgb(26, 22, 22);
+}
+.post {
+    border: solid thin #ede7e7;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #d0d0d0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.emp {
+    margin-top: 5px;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+    text-align: center;
+    border: solid thin #ede7e7;
+}
+.read-h3 {
+    font-weight: 300;
+    font-size: 16px;
+}
+.read {
+    background-color: #8870FF;
+    padding: 10px;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.header {
+	max-height: 150px;
+	background-color: #ffdd00;
+}
+ul li {
+	list-style: none;
+}
+.container {
+	max-width: 1000px;
+}
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+.thumbnail {
+	border: 1px solid #e5e5e5;
+	margin: -6px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	background: #fff;
+}
+
+.padding {
+	padding: 0px;
+}
+.pricing {
+	height: 20px;
+	width: 100%;
+}
+.title {
+    color: #333538;
+    cursor: pointer;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.title:hover {
+    text-decoration: none;
+}
+.name {
+	color: gray;
+}
+
+/*single*/
+.name-product {
+	font-size: 18px;
+	font-weight: 300;
+
+}
+.p {
+	font-weight: 500;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end single*/
+
+/*footer*/
+footer {
+	height: 300px;
+	width: 100%;
+	background-color: #222;
+}
+.logo-footer {
+	margin-top: 30px;
+}
+.foot-ul {
+	list-style: none;
+	margin-top: 10px;
+}
+.foot-ul .list-foot {
+	float: left;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: #fff;
+}
+.foot-ul .list-foot a :hover {
+	color: white;
+    text-decoration: none;
+}
+a :hover {
+	text-decoration: none;
+}
+
+/*about*/
+.about {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    background-color: white;
+    padding: 10px;
+}

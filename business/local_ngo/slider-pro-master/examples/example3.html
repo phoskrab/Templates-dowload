@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Slider Pro</title>
+
+<link rel="stylesheet" type="text/css" href="../dist/css/slider-pro.min.css" media="screen"/>
+<!-- <link rel="stylesheet" type="text/css" href="css/examples.css" media="screen"/> -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="../libs/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../dist/js/jquery.sliderPro.min.js"></script>
+
+<script type="text/javascript">
+	$( document ).ready(function( $ ) {
+		$( '#example3' ).sliderPro({
+			width: 960,
+			height: 400,
+			fade: true,
+			arrows: true,
+			buttons: false,
+			fullScreen: true,
+			shuffle: true,
+			smallSize: 500,
+			mediumSize: 1000,
+			largeSize: 3000,
+			thumbnailArrows: true,
+			autoplay: false
+		});
+	});
+</script>
+
+</head>
+
+<body>
+
+	<div id="example3" class="slider-pro">
+		<div class="sp-slides">
+			<div class="sp-slide">
+				<img class="sp-image" src="../src/css/images/blank.gif" 
+					data-src="http://bqworks.com/slider-pro/images/image3_medium.jpg" 
+					data-small="http://bqworks.com/slider-pro/images/image3_small.jpg"
+					data-medium="http://bqworks.com/slider-pro/images/image3_medium.jpg"
+					data-large="http://bqworks.com/slider-pro/images/image3_large.jpg"
+					data-retina="http://bqworks.com/slider-pro/images/image3_large.jpg"/>
+
+				<p class="sp-layer sp-white sp-padding" 
+					data-position="centerCenter" data-vertical="-50" 
+					data-show-transition="right" data-show-delay="500" >
+					Lorem ipsum dolor sit amet
+				</p>
+
+				<p class="sp-layer sp-black sp-padding" 
+					data-position="centerCenter" data-vertical="50" 
+					data-show-transition="left" data-show-delay="700">
+					consectetur adipisicing elit
+				</p>
+			</div>
+			<div class="sp-slide">
+				<img class="sp-image" src="../src/css/images/blank.gif" 
+					data-src="http://bqworks.com/slider-pro/images/image9_medium.jpg" 
+					data-small="http://bqworks.com/slider-pro/images/image9_small.jpg"
+					data-medium="http://bqworks.com/slider-pro/images/image9_medium.jpg"
+					data-large="http://bqworks.com/slider-pro/images/image9_large.jpg"
+					data-retina="http://bqworks.com/slider-pro/images/image9_large.jpg"/>
+
+				<p class="sp-layer sp-black sp-padding" 
+					data-horizontal="50" data-vertical="50"
+					data-show-transition="down" data-show-delay="500">
+					Lorem ipsum dolor sit amet
+				</p>
+
+				<p class="sp-layer sp-white sp-padding" 
+					data-horizontal="50" data-vertical="100"
+					data-show-transition="up" data-show-delay="500">
+					consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+
+			<div class="sp-slide">
+				<img class="sp-image" src="../src/css/images/blank.gif" 
+					data-src="http://bqworks.com/slider-pro/images/image10_medium.jpg" 
+					data-small="http://bqworks.com/slider-pro/images/image10_small.jpg"
+					data-medium="http://bqworks.com/slider-pro/images/image10_medium.jpg"
+					data-large="http://bqworks.com/slider-pro/images/image10_large.jpg"
+					data-retina="http://bqworks.com/slider-pro/images/image10_large.jpg"/>
+			</div>
+		</div>
+    </div>
+
+</body>
+</html>

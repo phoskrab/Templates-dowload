@@ -10,7 +10,7 @@ body {
     color: #fff;
 }
 .uk-nav-dropdown > li > a:focus, .uk-nav-dropdown > li > a:hover {
-    background: #b3e41a;
+    background: #6c6e65;
     color: #fff;
     outline: 0;
 }
@@ -73,7 +73,7 @@ body {
 
 
 .uk-navbar-nav > li.uk-open > a, .uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a:focus {
-    background-color: #92c100;
+    background-color: #6c6e65;
     color: #fff;
     outline: 0;
 }

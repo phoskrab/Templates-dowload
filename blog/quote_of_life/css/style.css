@@ -9,6 +9,11 @@ body,html{
 	position: fixed;
 	display: none;
 }
+.p {
+	color: #7b7373;
+	font-size: 17px;
+	font-weight: 200;
+}
 .img-logo{
 	margin-top: 50px;
 }
