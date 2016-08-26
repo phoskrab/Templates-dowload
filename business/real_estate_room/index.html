@@ -1,0 +1,536 @@
+<!--this template designed by Amoogli team-->
+<!---www.amoogli.com-->
+<!-- we update every month-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Index</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slider-pro.min.css" media="screen"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    
+    <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
+    <link rel="stylesheet" type="text/css" href="css/overwrite.css">
+    <link rel="stylesheet" type="text/css" href="css/color.css">
+    <link rel="stylesheet" type="text/css" href="css/overwrite.css">
+
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    
+     <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sliderPro.min.js"></script>
+    <script type="text/javascript" src="js/bootsnav.js"></script>
+    <!--slide-->
+    <script type="text/javascript">
+    $( document ).ready(function( $ ) {
+        $( '#example3' ).sliderPro({
+            width: 960,
+            height: 400,
+            fade: true,
+            arrows: true,
+            buttons: false,
+            fullScreen: true,
+            shuffle: true,
+            smallSize: 500,
+            mediumSize: 1000,
+            largeSize: 3000,
+            thumbnailArrows: true,
+            autoplay: true
+        });
+    });
+    </script>
+
+    <!--end slide-->
+    <!--slide in section down-->
+
+        <script type="text/javascript">
+            $( document ).ready(function( $ ) {
+                $( '#example2' ).sliderPro({
+                    width: 300,
+                    height: 300,
+                    visibleSize: '100%',
+                    forceSize: 'fullWidth',
+                    autoSlideSize: true
+                });
+
+                // instantiate fancybox when a link is clicked
+                $( '#example2 .sp-image' ).parent( 'a' ).on( 'click', function( event ) {
+                    event.preventDefault();
+
+                    // check if the clicked link is also used in swiping the slider
+                    // by checking if the link has the 'sp-swiping' class attached.
+                    // if the slider is not being swiped, open the lightbox programmatically,
+                    // at the correct index
+                    if ( $( '#example2' ).hasClass( 'sp-swiping' ) === false ) {
+                        $.fancybox.open( $( '#example2 .sp-image' ).parent( 'a' ), { index: $( this ).parents( '.sp-slide' ).index() } );
+                    }
+                });
+            });
+        </script>
+    <!--end slide slide down-->
+</head>
+
+<body>
+<!--nav-->
+<nav class="navbar navbar-default  navbar-transparent bootsnav">
+    <!-- Start Top Search -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Search -->
+    <div class="container">   
+        <!-- Start Atribute Navigation -->
+        <div class="attr-nav">
+            <ul>
+                <li class="search"><a href=""><i class="fa fa-search"></i></a></li>
+            </ul>
+        </div>        
+        <!-- End Atribute Navigation -->   
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="images/bp-logo-small.png" class="logo" alt=""></a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                <li><a href="index.html">Home</a></li>                    
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" >Land</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="category.html">Land</a></li>
+                        <li><a href="category.html">Land</a></li>
+                        <li><a href="category.html">Land</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>   
+</nav>
+<!--end nav-->
+<!--section background image-->
+<section>
+    <div class=" bg-overlay1">
+        <div class="row text-center">
+            <br><br>
+            <h1 class="title-h1" style="line-height:150px;">
+                Happy With Us
+            </h1>
+            <form>
+            <input class="search1 hidden-xs" type="text" placeholder="Search your favourite ...">
+            <button class="hidden-xs btn btn-default btn-search">Search</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!--end section background image-->
+<!--content-->
+<div class="container" style="margin-top:15px;clear:both;">
+    <div class="row row-slide">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <!--slide-->
+                <div class="row">
+                    <div id="example3" class="slider-pro">
+                        <div class="sp-slides">
+                            <div class="sp-slide">
+                                <img class="sp-image" src="../src/css/images/blank.gif" 
+                                    data-src="images/443897.jpg"
+                                    data-small="images/443897.jpg"
+                                    data-medium="images/443897.jpg"
+                                    data-large="images/443897.jpg"
+                                    data-retina="images/443897.jpg"
+                                    />
+
+                                <p class="sp-layer sp-white sp-padding" 
+                                    data-position="centerCenter" data-vertical="-50" 
+                                    data-show-transition="right" data-show-delay="500" >
+                                    Lorem ipsum dolor sit amet
+                                </p>
+
+                                <p class="sp-layer sp-black sp-padding" 
+                                    data-position="centerCenter" data-vertical="50" 
+                                    data-show-transition="left" data-show-delay="700">
+                                    consectetur adipisicing elit
+                                </p>
+                            </div>
+                            <div class="sp-slide">
+                                <img class="sp-image" src="../src/css/images/blank.gif" 
+                                    data-src="images/443897.jpg"
+                                    data-small="images/443897.jpg"
+                                    data-medium="images/443897.jpg"
+                                    data-large="images/443897.jpg"
+                                    data-retina="images/443897.jpg"/>
+
+                                <p class="sp-layer sp-black sp-padding" 
+                                    data-horizontal="50" data-vertical="50"
+                                    data-show-transition="down" data-show-delay="500">
+                                    Lorem ipsum dolor sit amet
+                                </p>
+
+                                <p class="sp-layer sp-white sp-padding" 
+                                    data-horizontal="50" data-vertical="100"
+                                    data-show-transition="up" data-show-delay="500">
+                                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+
+                            <div class="sp-slide">
+                                <img class="sp-image" src="../src/css/images/blank.gif" 
+                                   data-src="images/index12.jpeg"
+                                    data-small="images/443897.jpg"
+                                    data-medium="images/443897.jpg"
+                                    data-large="images/443897.jpg"
+                                    data-retina="images/443897.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end slide-->
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+            <span class="mission">
+            <h3 style="font-size:20px;">
+                Cam Mission:
+            </h3>
+            <p> 
+                <strong style="text-align:justify;">
+                 To provide with quality and healty care. Security first with Safty too. To provide with quality and healty care. Security first with Safty too. To provide with quality and healty care. Security first with Safty too.
+                 To provide with quality and healty care. Security first with Safty too.
+                </strong>
+            </p>
+            </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <div class="row" style="margin-top: 20px;
+                background: rgba(239, 239, 239, 0.62) none repeat scroll 0% 0%;">
+                <div class="box-post col-xs-12 col-sm-12 col-md-12">
+                    <a href="single.html">
+                        <div class="col-xs-12 co-sm-5 col-md-5">
+                            <img src="images/5.jpg" class="img-responsive">
+                        </div>
+                        <div class="col-xs-12 co-sm-7 col-md-7">
+                            <span class="promot">New</span>
+                            <p class="title-post">
+                                Somerville plastic bag ban set to take effect
+                            </p>
+                            <p>
+                                <small>By <strong>Tom Acitelli @tomacitelli </strong>Aug 23, 2016, 1:15p</small>
+                            </p>
+                            <small>
+                                The ordinance joins ones already on the books in Newton, Brookline, and Cambridge.
+                            </small>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-post col-xs-12 col-sm-12 col-md-12">
+                    <a href="single.html">
+                        <div class="col-xs-12 co-sm-5 col-md-5">
+                            <img src="images/2.jpg" class="img-responsive">
+                        </div>
+                        <div class="col-xs-12 co-sm-7 col-md-7">
+                            <span class="promot">New</span>
+                            <p class="title-post">
+                                Somerville plastic bag ban set to take effect
+                            </p>
+                            <p>
+                                <small>By <strong>Tom Acitelli @tomacitelli </strong>Aug 23, 2016, 1:15p</small>
+                            </p>
+                            <small>
+                                The ordinance joins ones already on the books in Newton, Brookline, and Cambridge.
+                            </small>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-post col-xs-12 col-sm-12 col-md-12">
+                    <a href="single.html">
+                        <div class="col-xs-12 co-sm-5 col-md-5">
+                            <img src="images/5.jpg" class="img-responsive">
+                        </div>
+                        <div class="col-xs-12 co-sm-7 col-md-7">
+                            <span class="promot">New</span>
+                            <p class="title-post">
+                                Somerville plastic bag ban set to take effect
+                            </p>
+                            <p>
+                                <small>By <strong>Tom Acitelli @tomacitelli </strong>Aug 23, 2016, 1:15p</small>
+                            </p>
+                            <small>
+                                The ordinance joins ones already on the books in Newton, Brookline, and Cambridge.
+                            </small>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-post col-xs-12 col-sm-12 col-md-12">
+                    <a href="single.html">
+                        <div class="col-xs-12 co-sm-5 col-md-5">
+                            <img src="images/2.jpg" class="img-responsive">
+                        </div>
+                        <div class="col-xs-12 co-sm-7 col-md-7">
+                            <span class="promot">New</span>
+                            <p class="title-post">
+                                Somerville plastic bag ban set to take effect
+                            </p>
+                            <p>
+                                <small>By <strong>Tom Acitelli @tomacitelli </strong>Aug 23, 2016, 1:15p</small>
+                            </p>
+                            <small>
+                                The ordinance joins ones already on the books in Newton, Brookline, and Cambridge.
+                            </small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--left for calendar and new event-->
+        <div class="col-xs-12 col-sm-3 col-md-3" style="margin-top: 20px;">
+           <a href="single.html" >
+                    <div class="padding col-sm-12 col-md-12">
+                        <div class="thumbnail">
+                          <img src="images/2.jpg" title="image" alt="not found image!">
+                          <div class="caption" style="padding:5px;">
+                            <p>
+                            <small>
+                            <strong class="title">
+                                Start your project with bootsnav. Start your project...
+                            </strong>
+                            </small>
+                            </p>
+                          </div>
+                          <div class="caption" style="padding:5px;border-top:solid gray thin;">
+                            <small>
+                            <span >
+                                <small style="font-size:10px;">
+                                <label class="name">Mr. Kimhonga</label>
+                                <label>
+                                    <small class="name">(Friday 12 2016)</small>
+                                </label>
+                                </small>
+                            </span>
+                            </small>
+                          </div>
+                        </div>
+                    </div>  
+                </a>
+
+                <a href="single.html">
+                    <div class="padding col-sm-12 col-md-12">
+                        <div class="thumbnail">
+                          <img src="images/4.jpg" title="image" alt="not found image!">
+                          <div class="caption" style="padding:5px;">
+                            <p>
+                            <small>
+                            <strong class="title">
+                                Start your project with bootsnav. Start your project...
+                            </strong>
+                            </small>
+                            </p>
+                          </div>
+                          <div class="caption" style="padding:5px;border-top:solid gray thin;">
+                            <small>
+                            <span >
+                                <small style="font-size:10px;">
+                                <label class="name">Mr. Kimhonga</label>
+                                <label>
+                                    <small class="name">(Friday 12 2016)</small>
+                                </label>
+                                </small>
+                            </span>
+                            </small>
+                          </div>
+                        </div>
+                    </div>  
+                </a>
+                <a href="single.html">
+                    <div class="padding col-sm-12 col-md-12">
+                        <div class="thumbnail">
+                          <img src="images/2.jpg" title="image" alt="not found image!">
+                          <div class="caption" style="padding:5px;">
+                            <p>
+                            <small>
+                            <strong class="title">
+                                Start your project with bootsnav. Start your project...
+                            </strong>
+                            </small>
+                            </p>
+                          </div>
+                          <div class="caption" style="padding:5px;border-top:solid gray thin;">
+                            <small>
+                            <span >
+                                <small style="font-size:10px;">
+                                <label class="name">Mr. Kimhonga</label>
+                                <label>
+                                    <small class="name">(Friday 12 2016)</small>
+                                </label>
+                                </small>
+                            </span>
+                            </small>
+                          </div>
+                        </div>
+                    </div>  
+                </a>
+        </div>
+        <!--end left-->
+    </div>
+</div>
+<!--end content-->
+<section class="section-slide">
+    <div id="example2" class="slider-pro">
+        <div class="sp-slides">
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image1_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image1_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image1_large.jpg"/>
+                </a>
+                <p class="sp-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image2_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image2_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image2_large.jpg"/>
+                </a>
+                <p class="sp-caption">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image3_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image3_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image3_large.jpg"/>
+                </a>
+                <p class="sp-caption">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image4_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image4_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image4_large.jpg"/>
+                </a>
+                <p class="sp-caption">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image5_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image5_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image5_large.jpg"/>
+                </a>
+                <p class="sp-caption">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image6_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image6_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image6_large.jpg"/>
+                </a>
+                <p class="sp-caption">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image7_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image7_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image7_large.jpg"/>
+                </a>
+                <p class="sp-caption">Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image8_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image8_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image8_large.jpg"/>
+                </a>
+                <p class="sp-caption">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image9_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image9_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image9_large.jpg"/>
+                </a>
+                <p class="sp-caption">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image10_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image10_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image10_large.jpg"/>
+                </a>
+                <p class="sp-caption">Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+
+            <div class="sp-slide">
+                <a href="http://bqworks.com/slider-pro/images2/image11_large.jpg">
+                    <img class="sp-image" src="../src/css/images/blank.gif" 
+                        data-src="http://bqworks.com/slider-pro/images2/image11_medium.jpg" 
+                        data-retina="http://bqworks.com/slider-pro/images2/image11_large.jpg"/>
+                </a>
+                <p class="sp-caption">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="hidden-xs col-sm-4 col-md-4">
+            
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+            <span>
+                <img src="images/logo-themeisle.png" class="logo-footer img-responsive">
+            </span>
+            <ul class="foot-ul">
+                <li class="list-foot"><a href="#" style="color:#fff;">Home</a></li>
+                <li class="list-foot"><a href="#" style="color:#fff;">Properties</a></li>
+                <li class="list-foot"><a href="#" style="color:#fff;">About</a></li>
+            </ul>
+            <br><br>
+            <hr>
+            <center>
+                <label><a href="www.amoogli.com" target="blank" style="color:#fff;">Amoogli.com</a></label>
+            </center>
+            <br>
+        </div>
+        <div class="hidden-xs col-sm-4 col-md-4">
+            
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
