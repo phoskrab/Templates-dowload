@@ -21,7 +21,7 @@ Email :Amooglikh@gmail.com
 Credit
 ===========================
 Framework Based
-- Bootstrap V.3 - http://getbootstrap.com/
+- Bootstrap V.3 - http://ukit.com/
 
 Font
 - Open Sans - https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans
@@ -30,9 +30,7 @@ Icons
 - Font Awesome - https://fortawesome.github.io/Font-Awesome/
 
 Javascript
-- jQuery  - https://code.jquery.com/jquery/
-- Bootstrap  - http://getbootstrap.com/
-- IE  - https://github.com/twbs/bootstrap/tree/master/docs/assets/js
+-we us UIKIT fronend framework
 
 CSS
 -  Animate - https://daneden.github.io/animate.css/
